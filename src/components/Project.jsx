@@ -1,10 +1,16 @@
+import { Link } from "react-router-dom";
+
 function Project() {
   return (
     <section id="progetti" className="projects-section">
-      <h2 className="section-title">Progetti attivi</h2>
+      <h2 className="section-title">Cosa offriamo</h2>
       <p className="section-subtitle">
-        Mappa Bianca è già operativa su due fronti: un sito culturale e una piattaforma digitale.
-        Due esperienze diverse, unite da uno stesso obiettivo: valorizzare il patrimonio.
+        Soluzioni pronte per il tuo territorio:
+        Mappa interattiva installabile – una mappa chiavi in mano, personalizzata con i tuoi contenuti, pronta da pubblicare.
+        Gestione punti di interesse su WordPress – un plugin per gestire facilmente i tuoi punti di interesse, 
+        con supporto per immagini e descrizioni dettagliate.
+        Progetto su misura – se hai esigenze specifiche, possiamo creare una soluzione personalizzata per te,
+        con funzionalità avanzate e design su misura.
       </p>
 
       <div className="projects-grid">
@@ -27,17 +33,12 @@ function Project() {
         <div className="project-card">
           <h3>Archaeomap</h3>
           <p>
-            Un plugin WordPress open-source per esplorare i siti archeologici italiani
-            su mappa interattiva. Un database vivo per scuole, ricercatori e turisti curiosi.
+            Plugin WordPress per mappe interattive. Gestisci i tuoi siti,
+            mostrali al pubblico, aggiornali con facilità. Ideale per enti e professionisti.
           </p>
-          <a
-            href="https://github.com/Vival18/archaeomap"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-link"
-          >
+          <Link to="/archaeomap" className="project-link">
             Scopri di più
-          </a>
+          </Link>
         </div>
       </div>
     </section>

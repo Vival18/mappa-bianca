@@ -1,15 +1,15 @@
 function Contatti() {
   return (
 <section id="contatti" className="contact-section">
-  <h2 className="section-title">Collabora con Mappa Bianca</h2>
+  <h2 className="section-title">Hai un evento, un percorso naturalistico, un borgo da raccontare?</h2>
   <p className="section-subtitle">
-    Hai una proposta, un luogo da segnalare o vuoi contribuire allo sviluppo del progetto?
+    Raccontaci il tuo progetto. Realizziamo una mappa interattiva su misura, in tempi brevi e con costi trasparenti.
   </p>
 
   <ul className="contact-list">
     <li>
       <strong>Email:</strong>{' '}
-      <a href="mailto:fabio.vivaldi97@gmail.com" className="contact-link">fabio.vivaldi97@gmail.com</a>
+      <a href="mailto:contatti.mappabianca@gmail.com" className="contact-link">contatti.mappabianca@gmail.com</a>
     </li>
     <li>
       <strong>Instagram:</strong>{' '}

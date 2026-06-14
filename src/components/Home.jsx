@@ -7,12 +7,10 @@ export default function Home() {
       <div className="max-w-3xl">
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Mappa Bianca</h1>
         <h2 className="text-xl md:text-2xl font-medium text-gray-300 mb-6">
-          Un’iniziativa per riscoprire e rimodernare il patrimonio culturale attraverso 
-          l’uso delle tecnologie digitali.
+          Strumenti digitali per valorizzare il patrimonio culturale.
         </h2>
         <p className="text-lg md:text-xl text-gray-400 max-w-xl mx-auto">
-          Un approccio innovativo per far scoprire e valorizzare 
-          i patrimoni del territorio con mappe interattive e dati aperti.
+          Mappe interattive per chi vuole raccontare il proprio territorio. Semplici da usare, facili da aggiornare.
         </p>
       </div>
     </section>
