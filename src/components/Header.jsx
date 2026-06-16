@@ -6,7 +6,7 @@ function Header() {
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
           <img
-            src="public/img/mappabianca-fav3.png"
+            src="img/mappabianca-fav3.png"
             alt="Mappa Bianca Logo"
             style={{ height: "70px" }}
           />
