@@ -10,7 +10,7 @@ function ServicePackages() {
             Scegli la mappa per il tuo territorio
           </h2>
           <p className="text-center text-lg text-gray-600 max-w-2xl mx-auto mb-12">
-            Tre soluzioni per valorizzare il patrimonio culturale, i percorsi e le eccellenze locali.
+            Due soluzioni per valorizzare il patrimonio culturale, i percorsi e le eccellenze locali.
             Ogni progetto è personalizzabile in base alle tue esigenze.
           </p>
         </FadeInSection>

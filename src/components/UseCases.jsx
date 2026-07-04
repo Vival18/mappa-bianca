@@ -21,7 +21,7 @@ function UseCases() {
             <div className="bg-[#f8f9fa] rounded-2xl shadow-lg p-8 h-full flex flex-col hover:shadow-xl transition-shadow">
               <div className="text-4xl mb-4">🏔️</div>
               <h3 className="text-2xl font-bold text-[#0A122A] mb-2">BALDOFestival</h3>
-              <p className="text-sm text-gray-500 mb-3">Sentieri nell'Arte – Punto a capo</p>
+              <p className="text-sm text-gray-500 mb-3">Sentieri nell'Arte – L'ordine delle cose</p>
               <p className="text-gray-600 mb-6 flex-grow">
                 Mappa interattiva del percorso artistico con punti di interesse 
                 (opere, fontane, lavatoi, chiese). Geolocalizzazione, filtri e 

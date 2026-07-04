@@ -46,7 +46,7 @@ function About() {
                 competenze tecniche.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Ho già collaborato con <span className="font-medium">BALDOFestival</span> 
+                Ho già collaborato con BALDOFestival
                 per realizzare la mappa di "Sentieri nell'Arte".
               </p>
               <div className="flex flex-wrap gap-3 pt-2">
