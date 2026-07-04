@@ -15,7 +15,7 @@ function Faq() {
     },
     {
       domanda: "Quanto tempo ci vuole per realizzare la mappa?",
-      risposta: "Dipende dalla complessità del progetto. In generale, per i pacchetti Light e Standard parliamo di 5-7 giorni lavorativi. Per il pacchetto Premium, che include personalizzazioni avanzate, possiamo concordare tempistiche specifiche in base alle tue esigenze."
+      risposta: "Dipende dalla complessità del progetto. In generale, per i pacchetti Light e Standard parliamo di 5-7 giorni lavorativi. Per personalizzazioni avanzate, possiamo concordare tempistiche specifiche in base alle tue esigenze."
     },
     {
       domanda: "La mappa funziona anche senza connessione?",
@@ -23,7 +23,7 @@ function Faq() {
     },
     {
       domanda: "Ci sono costi di manutenzione o rinnovo?",
-      risposta: "No, la mappa è tua e non ci sono canoni annuali. I pacchetti includono assistenza tecnica per 6 mesi (Light e Standard) o 12 mesi (Premium). Dopo questo periodo, se hai bisogno di assistenza o aggiornamenti, possiamo concordare un supporto a ore o un contratto di manutenzione."
+      risposta: "No, la mappa è tua e non ci sono canoni annuali. I pacchetti includono assistenza tecnica per 6 mesi (Light) o 12 mesi (Standard). Dopo questo periodo, se hai bisogno di assistenza o aggiornamenti, possiamo concordare un supporto a ore o un contratto di manutenzione."
     },
     {
       domanda: "I dati della mappa sono miei o tuoi?",
@@ -53,34 +53,31 @@ function Faq() {
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
-            <FadeInSection key={index}>
-              <div className="border border-gray-200 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
-                <button
-                  onClick={() => toggleFaq(index)}
-                  className="w-full text-left px-6 py-5 bg-white hover:bg-gray-50 transition flex justify-between items-center gap-4"
-                >
-                  <span className="text-lg font-semibold text-[#0A122A]">
-                    {faq.domanda}
-                  </span>
-                  <span className="text-2xl flex-shrink-0 text-[#0A122A]">
-                    {openIndex === index ? "−" : "+"}
-        </span>
-                </button>
-                <div
-                  className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
-                    openIndex === index ? "max-h-96 pb-6" : "max-h-0"
-                  }`}
-                >
-                  <p className="text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
-                    {faq.risposta}
-                  </p>
-                </div>
+            <div key={index} className="border border-gray-200 rounded-2xl overflow-hidden hover:border-gray-300 transition-colors">
+              <button
+                onClick={() => toggleFaq(index)}
+                className="w-full text-left px-6 py-5 bg-white hover:bg-gray-50 transition flex justify-between items-center gap-4"
+              >
+                <span className="text-lg font-semibold text-[#0A122A]">
+                  {faq.domanda}
+                </span>
+                <span className="text-2xl flex-shrink-0 text-[#0A122A]">
+                  {openIndex === index ? "−" : "+"}
+                </span>
+              </button>
+              <div
+                className={`px-6 overflow-hidden transition-all duration-300 ease-in-out ${
+                  openIndex === index ? "max-h-96 pb-6" : "max-h-0"
+                }`}
+              >
+                <p className="text-gray-700 leading-relaxed border-t border-gray-100 pt-4">
+                  {faq.risposta}
+                </p>
               </div>
-            </FadeInSection>
+            </div>
           ))}
         </div>
 
-        {/* Call to action finale */}
         <FadeInSection>
           <div className="text-center mt-12 p-8 bg-[#f8f9fa] rounded-2xl">
             <p className="text-lg text-gray-700 mb-4">

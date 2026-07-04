@@ -1,5 +1,6 @@
 import React from "react";
 import FadeInSection from "./FadeInSection";
+import { Link } from 'react-router-dom';
 
 function UseCases() {
   return (
@@ -83,12 +84,9 @@ function UseCases() {
                 <span className="bg-blue-100 text-blue-700 text-xs px-3 py-1 rounded-full">Import/Export</span>
                 <span className="bg-purple-100 text-purple-700 text-xs px-3 py-1 rounded-full">Filtri avanzati</span>
               </div>
-              <a
-                href="/archaeomap"
-                className="text-[#0A122A] font-semibold hover:underline inline-flex items-center gap-1"
-              >
-                Scopri di più →
-              </a>
+<Link to="/archaeomap" className="text-[#0A122A] font-semibold hover:underline inline-flex items-center gap-1">
+  Scopri di più →
+</Link>
             </div>
           </FadeInSection>
         </div>
