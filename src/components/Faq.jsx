@@ -15,7 +15,7 @@ function Faq() {
     },
     {
       domanda: "Quanto tempo ci vuole per realizzare la mappa?",
-      risposta: "Dipende dalla complessità del progetto. In generale, per i pacchetti Light e Standard parliamo di 5-7 giorni lavorativi. Per personalizzazioni avanzate, possiamo concordare tempistiche specifiche in base alle tue esigenze."
+      risposta: "Dipende dalla complessità del progetto. In generale, parliamo di 5-7 giorni lavorativi. Per personalizzazioni avanzate, possiamo concordare tempistiche specifiche in base alle tue esigenze."
     },
     {
       domanda: "La mappa funziona anche senza connessione?",
@@ -31,7 +31,7 @@ function Faq() {
     },
     {
       domanda: "Posso vedere una demo prima di decidere?",
-      risposta: "Certo. Posso mostrarti esempi di mappe già realizzate (come quella del Baldo Festival) e, se necessario, preparare un prototipo ridotto del tuo progetto per darti un'idea concreta del risultato finale."
+      risposta: "Certo. Posso mostrarti esempi di mappe già realizzate (come quella del BALDOFestival) e, se necessario, preparare un prototipo ridotto del tuo progetto per darti un'idea concreta del risultato finale."
     },
     {
       domanda: "Cosa succede se voglio aggiungere altre funzionalità in futuro?",
