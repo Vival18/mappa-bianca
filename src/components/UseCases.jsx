@@ -50,8 +50,7 @@ function UseCases() {
               <h3 className="text-2xl font-bold text-[#0A122A] mb-2">Forte di Rivoli</h3>
               <p className="text-sm text-gray-500 mb-3">Sito culturale</p>
               <p className="text-gray-600 mb-6 flex-grow">
-                Sito web rinnovato per raccontare la storia del Forte in chiave moderna. 
-                Mappa interattiva integrata per esplorare il forte e i suoi punti di interesse.
+                Homepage del sito web rinnovata per raccontare la storia del Forte in chiave moderna. 
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
                 <span className="bg-green-100 text-green-700 text-xs px-3 py-1 rounded-full">Sito web</span>
